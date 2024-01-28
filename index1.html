@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad&family=Rethink+Sans:ital@1&family=Roboto+Condensed:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css">
+
+    <style>
+        body {
+            font-family: 'Afacad', sans-serif;
+            color: white;
+            background: url('img/yoga7.jpg');
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+            background-size: 100% 100% ;
+
+        }
+
+        .left {
+            position: absolute;
+            display: inline-block;
+           /* border: 2px solide red;*/
+            top: 18px;
+            left: 60px;
+
+        }
+
+        .left img {
+            width: 200px;
+             color: white;
+            
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 20px;
+            font-size: 24px;
+        }
+
+        .mid {
+            display: block;
+            width: 42%;
+            margin: 29px auto;
+            /* /*border: 2px solide yellow; */
+        }
+         
+        .right {
+            position: absolute;
+            top: 38px;
+            right: 33px;
+            /* /*border: 2px solide green; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 30px 20px;
+
+        }
+
+        .navbar li a:hover,.navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: 'Afacad', sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0px 8px;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(46, 44, 44);
+
+        }
+
+        .container{
+            border: 3px solide rgb(125, 138, 6);
+            margin: 30px 23px;
+            padding: 75px ;
+            width: 65%;
+            border-radius: 28px;
+        }
+
+        form div input{
+             
+            margin: 10px  3px;
+            
+        }
+         
+        .form-group input{
+            font-family: 'Afacad', sans-serif;
+            text-align: center;
+            display: block;
+            width: 300px;
+            padding: 1px;
+            border: 20x solid white;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+        .container a{
+            margin: 30px 80px ;
+            width: 60%;
+            padding: 30px;
+        }
+        .container h2{
+              text-align: center;
+              display: block;
+              margin: 10px 35px;
+              width: 70%;
+        }
+        .container h2 input{
+            text-align: center;
+            margin:  10px  -34px;
+        }
+         .container button{
+            display: block;
+            margin: 20px  -22px;
+            width: 117%;
+            background-color: black;
+
+             
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src=" " alt="">
+            <div>My Fitness</div>
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="container">
+                <a> JOIN US NOW </a>
+                 <h2>FITNESS STUDIO<h2>
+                 <form action="noaction.php" target="_blank">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Age">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Gender">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Email I'd">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Locality">
+                    </div>
+                    <button class="btn">Submit</button>
+                 </form>
+            </div>
+
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+         
+    </div>
+
+</body>
+
+</html>
